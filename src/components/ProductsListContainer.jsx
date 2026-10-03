@@ -7,7 +7,7 @@ function ProductsListContainer() {
             id: 1,
             imageUrl: "public/images/products-images/practical-php-and-mysql.jpg",
             title: "Practical PHP and MySQL",
-            autor: "Jono Bacon",
+            author: "Jono Bacon",
             price: 96.86,
             category: "PHP"
         },
@@ -15,7 +15,7 @@ function ProductsListContainer() {
             id: 2,
             imageUrl: "public/images/products-images/practical-php-and-mysql.jpg",
             title: "Practical PHP and MySQL",
-            autor: "Jono Bacon",
+            author: "Jono Bacon",
             price: 96.86,
             category: "PHP"
         }
@@ -29,8 +29,10 @@ function ProductsListContainer() {
             <main id="products-list">
                 <h3>List of Available books</h3>
 
+                {console.log(...products)}
                 {products.map(product => (
-                    <ProductItem product={product} />
+                    <ProductItem key={product.id} product={product} />
+                    
                 ))}
                 
 
