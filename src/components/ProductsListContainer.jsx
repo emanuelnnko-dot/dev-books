@@ -18,7 +18,15 @@ function ProductsListContainer() {
             author: "Jono Bacon",
             price: 96.86,
             category: "PHP"
-        }
+        },
+        {
+            id: 3,
+            imageUrl: "",
+            title: "Practical PHP and MySQL",
+            author: "Jono Bacon",
+            price: 96.86,
+            category: "PHP"
+        },
 
     ];
 
