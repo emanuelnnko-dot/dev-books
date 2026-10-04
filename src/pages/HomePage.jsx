@@ -7,7 +7,7 @@ function HomePage() {
 
     return (
         <>
-            <section id="outer-grid-container">
+            <section id="outer-container">
                 <Header />
                 <h1>Online Books Store for Web Developers</h1>
                 <ProductsListContainer />
