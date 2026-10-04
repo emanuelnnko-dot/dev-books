@@ -8,7 +8,7 @@ function ProductsListContainer() {
         {
             id: "f5c4aa1c-7810-4088-878e-f6cea9200df8",
             imageUrl: "public/images/products-images/practical-php-and-mysql.jpg",
-            name: "Practical PHP and MySQL",
+            name: "Practical PHP and MySQL: Building Eight Dynamic Web Applications",
             author: "Jono Bacon",
             price: 96.86,
             category: "PHP"
@@ -89,15 +89,17 @@ function ProductsListContainer() {
 
     return (
         <>
-            <main id="products-list">
+            <main id="main">
                 <h3>List of Available books</h3>
 
-                {/* {console.log(...products)} */}
-                {products.map(product => (
-                    <ProductItem key={product.id} product={product} />
-                ))}
+                <section id="products-list">
+                    {/* {console.log(...products)} */}
+                    {products.map(product => (
+                        <ProductItem key={product.id} product={product} />
+                    ))}
+                </section>
 
-                <form onSubmit={addNewProduct}>
+                <form id="product-form" onSubmit={addNewProduct}>
                     <h3>Add new book to the list</h3>
                     <label htmlFor="input-image-url">Image: </label> <br />
                     <input type="text" id="input-image-url" name="imageUrl" value={product.imageUrl} onChange={handleInput} placeholder="Enter image link"/> <br />
@@ -134,11 +136,6 @@ export default ProductsListContainer
 
 //  List of unused UUID:
 
-//  
-//  
-//  
-//  
-//  
 //  c8d68569-2a89-488b-8952-178f73bb4e67
 //  c2576d53-e5c5-46e4-b6b5-8743ec59db64
 //  e3668336-0df2-48c8-bb92-bee0159f4e4a

@@ -6,11 +6,13 @@ function ProductItem({product}) {
     return (
         <>
             <div  className="product-item">
-                <div>{product.imageUrl ? <img src={product.imageUrl} alt={product.title}/> : <img src="public/images/products-images/no-image-available-icon.jpg" alt="No image available"/> }</div>
-                <p>Name: {product.name}</p>
-                <p>Author: {product.author}</p>
-                <p>Price: {product.price}</p>
-                <p>Category: {product.category}</p>
+                <div className="image-container">{product.imageUrl ? <img src={product.imageUrl} alt={product.title}/> : <img src="public/images/products-images/no-image-available-icon.jpg" alt="No image available"/> }</div>
+                <div className="product-content">
+                    <p className="product-name">Name: {product.name}</p>
+                    <p>Author: {product.author}</p>
+                    <p>Price: $ {product.price}</p>
+                    <p>Category: {product.category}</p>
+                </div>
                 {/* <button onClick={clicked}>Remove Product</button> */}
             </div>
         </>
