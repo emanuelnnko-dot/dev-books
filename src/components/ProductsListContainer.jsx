@@ -88,19 +88,19 @@ function ProductsListContainer() {
 
                 <form onSubmit={addNewProduct}>
                     <h3>Add new book to the list</h3>
-                    <label for="input-image-url">Image: </label> <br />
+                    <label htmlFor="input-image-url">Image: </label> <br />
                     <input type="text" id="input-image-url" name="imageUrl" value={product.imageUrl} onChange={handleInput} placeholder="Enter image link"/> <br />
                     
-                    <label for="input-book-name">Name: </label> <br />
+                    <label htmlFor="input-book-name">Name: </label> <br />
                     <input type="text" id="input-book-name" name="name" value={product.name} onChange={handleInput} placeholder="Enter book name"/> <br />
 
-                    <label for="input-author-name">Author: </label> <br />
+                    <label htmlFor="input-author-name">Author: </label> <br />
                     <input type="text" id="input-author-name" name="author" value={product.author} onChange={handleInput} placeholder="Enter author name"/> <br />
                     
-                    <label for="input-book-price">Price: </label> <br />
+                    <label htmlFor="input-book-price">Price: </label> <br />
                     <input type="text" id="input-book-price" name="price" value={product.price} onChange={handleInput} placeholder="Enter book price"/> <br />
                     
-                    <label for="input-book-category">Category: </label> <br />
+                    <label htmlFor="input-book-category">Category: </label> <br />
                     <input type="text" id="input-book-category" name="category" value={product.category} onChange={handleInput} placeholder="Enter book category"/> <br />
 
                     <button type="submit">Add new book</button>
