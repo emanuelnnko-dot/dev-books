@@ -7,7 +7,7 @@ function ProductsListContainer() {
     const [products, setProducts] = useState([
         {
             id: "f5c4aa1c-7810-4088-878e-f6cea9200df8",
-            imageUrl: "public/images/products-images/practical-php-and-mysql.jpg",
+            imageUrl: "/images/products-images/practical-php-and-mysql.jpg",
             name: "Practical PHP and MySQL: Building Eight Dynamic Web Applications",
             author: "Jono Bacon",
             price: 96.86,
@@ -15,7 +15,7 @@ function ProductsListContainer() {
         },
         {
             id: "0521e538-2bc3-472d-a31d-d10268e1ff6c",
-            imageUrl: "public/images/products-images/javascript-the-definitive-guide.png",
+            imageUrl: "/images/products-images/javascript-the-definitive-guide.png",
             name: "Javascript: The Definitive Guide: Master the World's Most-Used Programming Language",
             author: "David Flanagan",
             price: 71.77,
@@ -23,7 +23,7 @@ function ProductsListContainer() {
         },
         {
             id: "76356878-e1d2-41ef-b132-95bc0692e7bb",
-            imageUrl: "public/images/products-images/eloquent-javascript.png",
+            imageUrl: "/images/products-images/eloquent-javascript.png",
             name: "Eloquent Javascript: A Modern Introduction to Programming",
             author: "Marijn Haverbeke",
             price: 54.50,
@@ -31,7 +31,7 @@ function ProductsListContainer() {
         },
         {
             id: "81a6f31c-0041-4375-bb91-1f96f86a5039",
-            imageUrl: "public/images/products-images/react-design-patterns-and-best-practices.png",
+            imageUrl: "/images/products-images/react-design-patterns-and-best-practices.png",
             name: "React Design Patterns and Best Practices: Design, build, and deploy production-ready web applications by leveraging industry-best practices",
             author: "Carlos Santana Roldán",
             price: 85.05,
@@ -39,7 +39,7 @@ function ProductsListContainer() {
         },
         {
             id: "e57cf660-d19e-4446-bdb7-81669c1b7a76",
-            imageUrl: "public/images/products-images/react-and-react-native.png",
+            imageUrl: "/images/products-images/react-and-react-native.png",
             name: "React and React Native: Build cross-platform JavaScript and TypeScript apps for web and mobile",
             author: "Mikhail Sakhniuk ",
             price: 92.92,
@@ -47,7 +47,7 @@ function ProductsListContainer() {
         },
         {
             id: "fd3b56de-dbce-4b40-8e63-22ee907ce30b",
-            imageUrl: "public/images/products-images/html-and-css-design-and-build-websites.png",
+            imageUrl: "/images/products-images/html-and-css-design-and-build-websites.png",
             name: "HTML and CSS: Design and Build Websites",
             author: "Jon Duckett",
             price: 29.86,
@@ -55,7 +55,7 @@ function ProductsListContainer() {
         },
         {
             id: "74fd67c7-792d-4fa1-9a79-805d42f7d34f",
-            imageUrl: "public/images/products-images/learning-python.png",
+            imageUrl: "/images/products-images/learning-python.png",
             name: "Learning Python: Powerful Object-Oriented Programming",
             author: "Mark Lutz ",
             price: 137.86,
@@ -63,7 +63,7 @@ function ProductsListContainer() {
         },
         {
             id: "8a670afd-a27c-4693-9b9b-d30e124bf57f",
-            imageUrl: "public/images/products-images/django-5-by-example.png",
+            imageUrl: "/images/products-images/django-5-by-example.png",
             name: "Django 5 By Example: Build powerful and reliable Python web applications from scratch",
             author: "Antonio Melé",
             price: 75.60,
