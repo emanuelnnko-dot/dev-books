@@ -6,7 +6,7 @@ function ProductItem({product}) {
     return (
         <>
             <div  className="product-item">
-                <div className="image-container">{product.imageUrl ? <img src={product.imageUrl} alt={product.title}/> : <img src="public/images/products-images/no-image-available-icon.jpg" alt="No image available"/> }</div>
+                <div className="image-container">{product.imageUrl ? <img src={product.imageUrl} alt={product.title}/> : <img src="/images/products-images/no-image-available-icon.jpg" alt="No image available"/> }</div>
                 <div className="product-content">
                     <p className="product-name">Name: {product.name}</p>
                     <p>Author: {product.author}</p>
